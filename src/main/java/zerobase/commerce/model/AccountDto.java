@@ -1,5 +1,12 @@
 package zerobase.commerce.model;
 
-public class AccountDto {
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
+public class AccountDto {
+	private String username;
+	private String password;
+	
 }
