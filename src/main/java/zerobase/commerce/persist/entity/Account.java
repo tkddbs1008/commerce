@@ -21,7 +21,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @Builder
 @Entity(name = "MEMBER")
-public class Account {
+public class Account{
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -36,4 +36,5 @@ public class Account {
 
     @LastModifiedDate
     private LocalDateTime modifiedAt;
+
 }
