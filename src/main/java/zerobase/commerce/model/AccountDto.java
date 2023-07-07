@@ -21,7 +21,6 @@ public class AccountDto {
                 .password(this.password)
                 .username(this.username)
                 .createdAt(LocalDateTime.now())
-                .modifiedAt(LocalDateTime.now())
                 .build();
     }
 }
